@@ -21,7 +21,9 @@ Then open http://localhost:8765.
 
 ## Deploy
 
-Drag the folder onto Netlify Drop, or push it to a GitHub repo and enable Pages. Nothing needs to be compiled.
+The site is served by GitHub Pages from the `main` branch of github.com/bendichter/thisisus-ecuador at https://bendichter.com/thisisus-ecuador/. Push to `main` and it redeploys in about a minute. Nothing needs to be compiled.
+
+To move it to Giovanni's own domain, add a `CNAME` file with the domain and point the domain's DNS at GitHub Pages.
 
 ## Before going live
 
